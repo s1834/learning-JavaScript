@@ -1,0 +1,33 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "s1834",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "events": "^3.3.0",
+    "os-browserify": "^0.3.0",
+    "parcel": "^2.11.0",
+    "parcel-bundler": "^1.12.5",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.35.0",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s1834/forkify-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s1834/forkify-app/issues"
+  },
+  "homepage": "https://github.com/s1834/forkify-app#readme"
+}
